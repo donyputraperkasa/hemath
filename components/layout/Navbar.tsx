@@ -28,8 +28,8 @@ export default function Navbar() {
                     <Link href="/" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-gray-100 ${isActive("/")}`}>
                         <Home size={18} /> Home
                     </Link>
-                    <Link href="/program" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-gray-100 ${isActive("/program")}`}>
-                        <BookOpen size={18} /> Program
+                    <Link href="/materi" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-gray-100 ${isActive("/materi")}`}>
+                        <BookOpen size={18} /> Materi
                     </Link>
                     <Link href="/layanan" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-gray-100 ${isActive("/layanan")}`}>
                         <Layers size={18} /> Layanan
@@ -70,8 +70,8 @@ export default function Navbar() {
                     <Link href="/" onClick={() => setOpen(false)} className={`flex items-center gap-3 px-4 py-3 rounded-xl transition hover:bg-gray-100 ${isActive("/")}`}>
                         <Home size={18} /> Home
                     </Link>
-                    <Link href="/program" onClick={() => setOpen(false)} className={`flex items-center gap-3 px-4 py-3 rounded-xl transition hover:bg-gray-100 ${isActive("/program")}`}>
-                        <BookOpen size={18} /> Program
+                    <Link href="/materi" onClick={() => setOpen(false)} className={`flex items-center gap-3 px-4 py-3 rounded-xl transition hover:bg-gray-100 ${isActive("/materi")}`}>
+                        <BookOpen size={18} /> Materi
                     </Link>
                     <Link href="/layanan" onClick={() => setOpen(false)} className={`flex items-center gap-3 px-4 py-3 rounded-xl transition hover:bg-gray-100 ${isActive("/layanan")}`}>
                         <Layers size={18} /> Layanan

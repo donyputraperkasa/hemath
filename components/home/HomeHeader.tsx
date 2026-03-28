@@ -2,7 +2,7 @@
 
 import { GraduationCap } from "lucide-react";
 
-export default function HomeSatu() {
+export default function HomeHeader() {
     return (
         <section className="bg-yellow-50 py-24 text-center text-white relative">
         
