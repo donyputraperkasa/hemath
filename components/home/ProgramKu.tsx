@@ -38,18 +38,12 @@ export default function ProgramKu() {
                 return (
                     <div
                         key={index}
-                        className={`group rounded-xl p-4 flex flex-col items-center justify-center gap-2 shadow-md transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl ${
-                            [
-                                "bg-gradient-to-br from-blue-500 to-indigo-500 text-white",
-                                "bg-gradient-to-br from-green-500 to-emerald-500 text-white",
-                                "bg-gradient-to-br from-purple-500 to-pink-500 text-white"
-                            ][index % 3]
-                            }`}
+                        className="group rounded-xl p-4 flex flex-col items-center justify-center gap-2 shadow-md transition-all duration-300 transform hover:-translate-y-2 hover:scale-105 hover:shadow-xl bg-white"
                         >
-                        <div className="bg-white/20 p-3 rounded-full transition-all duration-300 group-hover:bg-white/30">
-                            <Icon size={20} className="text-white" />
+                        <div className="bg-gradient-to-br from-indigo-100 to-purple-100 p-3 rounded-full transition-all duration-300 group-hover:scale-110">
+                            <Icon size={20} className="text-indigo-600" />
                         </div>
-                        <p className="text-sm font-semibold tracking-wide">{item.title}</p>
+                        <p className="text-sm font-semibold tracking-wide text-gray-800">{item.title}</p>
                     </div>
                 );
                 })}
