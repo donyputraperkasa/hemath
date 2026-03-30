@@ -11,8 +11,8 @@ export default function ProgramHeader() {
                     <Calculator className="text-indigo-600" size={36} />
                 </div>
             </div>
-            <h1 className="text-3xl md:text-4xl font-semibold tracking-wide text-slate-800">
-                Kita Mau Belajar Apa Nih Sama MasDon 😁
+            <h1 className="p-8 w-full border-l-[32px] border-r-[32px] border-transparent text-3xl md:text-4xl font-semibold tracking-wide bg-gradient-to-r from-indigo-600 via-purple-600 to-teal-500 bg-clip-text text-transparent">
+                Kita Mau Belajar Apa Nih Sama MasDon
             </h1>
         </section>
     );
