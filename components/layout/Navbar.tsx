@@ -11,7 +11,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(false);
 
     const isActive = (path: string) =>
-        pathname === path ? "text-white font-semibold bg-indigo-700" : "text-indigo-700 font-semibold";
+        pathname === path ? "text-white font-semibold bg-indigo-600" : "text-indigo-700 font-semibold";
 
     return (
         <header className="w-full bg-white/80 backdrop-blur shadow-sm sticky top-0 z-50">
@@ -29,22 +29,22 @@ export default function Navbar() {
 
                 {/* Menu */}
                 <nav className="hidden md:flex items-center gap-8">
-                    <Link href="/" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-indigo-50 hover:text-indigo-600 ${isActive("/")}`}>
+                    <Link href="/" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-indigo-100 hover:text-indigo-600 ${isActive("/")}`}>
                         <Home size={18} /> Home
                     </Link>
-                    <Link href="/materi" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-indigo-50 hover:text-indigo-600 ${isActive("/materi")}`}>
+                    <Link href="/materi" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-indigo-100 hover:text-indigo-600 ${isActive("/materi")}`}>
                         <BookOpen size={18} /> Materi
                     </Link>
-                    <Link href="/layanan" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-indigo-50 hover:text-indigo-600 ${isActive("/layanan")}`}>
+                    <Link href="/layanan" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-indigo-100 hover:text-indigo-600 ${isActive("/layanan")}`}>
                         <Layers size={18} /> Layanan
                     </Link>
-                    <Link href="/tentang" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-indigo-50 hover:text-indigo-600 ${isActive("/tentang")}`}>
+                    <Link href="/tentang" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-indigo-100 hover:text-indigo-600 ${isActive("/tentang")}`}>
                         <Info size={18} /> Tentang
                     </Link>
-                    <Link href="/profile" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-indigo-50 hover:text-indigo-600 ${isActive("/profile")}`}>
+                    <Link href="/profile" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-indigo-100 hover:text-indigo-600 ${isActive("/profile")}`}>
                         <User size={18} /> Profile
                     </Link>
-                    <Link href="/daftar" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-indigo-50 hover:text-indigo-600 ${isActive("/daftar")}`}>
+                    <Link href="/daftar" className={`flex items-center gap-2 px-2 py-1 rounded-md transition hover:bg-indigo-100 hover:text-indigo-600 ${isActive("/daftar")}`}>
                         <ClipboardList size={18} /> Daftar
                     </Link>
                 </nav>
@@ -54,7 +54,7 @@ export default function Navbar() {
                     <Link
                         href="https://portofolio-ku-gold.vercel.app"
                         target="_blank"
-                        className="bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600 text-white px-5 py-2 rounded-xl font-medium transition shadow-md hover:shadow-lg"
+                        className="bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600 text-white px-5 py-2 rounded-xl font-semibold transition shadow-md hover:shadow-lg"
                     >
                         portofolio
                     </Link>

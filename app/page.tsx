@@ -4,6 +4,7 @@ import HomeHeader from "@/components/home/HomeHeader";
 import ProgramKu from "@/components/home/ProgramKu";
 import Perjalananku from "@/components/home/PerjalananKu";
 import AreaBelajar from "@/components/home/AreaBelajar";
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
       <ProgramKu />
       <Perjalananku />
       <AreaBelajar />
+
+      <Analytics />
     </div>
   );
 }
