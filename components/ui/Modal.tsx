@@ -31,12 +31,6 @@ return createPortal(
         {/* Modal */}
         <div className="fixed inset-0 z-[1000] flex items-start justify-center p-4 overflow-y-auto" onClick={onClose}>
             <div className="w-full max-w-sm my-10 bg-white rounded-2xl shadow-xl p-6" onClick={(e) => e.stopPropagation()}>
-                {/* Close */}
-                <div className="flex justify-end mb-2">
-                    <button onClick={onClose}>
-                        <X size={20} />
-                    </button>
-                </div>
 
                 {children}
                 

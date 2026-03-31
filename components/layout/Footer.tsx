@@ -41,8 +41,15 @@ export default function Footer() {
             <div className="border-t border-gray-600 mx-6" />
 
             {/* Bottom */}
-            <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col sm:flex-row justify-between items-center text-sm gap-3">
-                <p className="text-center sm:text-left">© 2026 HE-MATH - All rights reserved.</p>
+            <div className="m-5 text-xs font-semibold text-yellow-300 flex justify-center text-center">
+                <a
+                    href="https://portofolio-ku-gold.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:scale-105 transition"
+                >
+                    Created by : mas dony putra perkasa
+                </a>
             </div>
         </footer>
     );

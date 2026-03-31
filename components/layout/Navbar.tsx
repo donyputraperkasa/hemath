@@ -62,7 +62,7 @@ export default function Navbar() {
 
                 {/* Mobile Right Actions */}
                 <div className="md:hidden flex items-center gap-3">
-                    <button onClick={() => setOpen(!open)} className="p-2 rounded-lg hover:bg-indigo-50 transition">
+                    <button onClick={() => setOpen(!open)} className="text-indigo-600 font-semibold gap-2 rounded-lg hover:bg-indigo-50 hover:text-indigo-600 p-2 transition">
                         {open ? <X /> : <Menu />}
                     </button>
                 </div>

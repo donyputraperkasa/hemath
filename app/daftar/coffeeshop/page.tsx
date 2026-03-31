@@ -1,0 +1,13 @@
+import CoffeeShopHeader from "@/components/daftar/CoffeeShopHeader";
+import KalkulasiCoffeeShop from "@/components/daftar/KalkulasiCoffeeShop";
+import TombolKembali from "@/components/daftar/TombolKembali";
+
+export default function HomeVisit (){
+    return (
+        <div className="flex flex-col min-h-screen bg-gradient-to-br from-pink-100 via-yellow-100 via-green-100 via-blue-100 to-purple-100">
+            <CoffeeShopHeader />
+            <KalkulasiCoffeeShop />
+            <TombolKembali />
+        </div>
+    )
+}
