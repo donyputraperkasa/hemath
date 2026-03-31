@@ -6,7 +6,7 @@ const pendidikan = [
         title: 'Matematika',
         icon: GraduationCap,
         description:
-        "Lulus dengan skripsi berjudul 'Magic Edge Labeling of Cycle Graphs' menggunakan bahasa pemrograman MATLAB.",
+        "Selama kuliah saya diajarkan berbagai ilmu matematika seperti aljabar, geometri, statistika, kalkulus, dan masih banyak lagi yang lainnya",
     },
     {
         title: 'Program Profesi Guru',
@@ -18,7 +18,7 @@ const pendidikan = [
         title: 'Software Engineering',
         icon: Code,
         description:
-        'Dilatih sebagai full-stack developer menggunakan Next.js, NestJS, Prisma, dan PostgreSQL.',
+        'Belajar dengan dunia software engineering mulai dari HTML, CSS Tailwind, Javascript, Next.Js , Nest.Js, Prisma, MySQL, dan masih banyak lagi yang lainnya',
     },
 ];
 

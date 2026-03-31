@@ -30,7 +30,7 @@ export default function KalkulasiHomeVisit() {
                     <select
                         value={jenjang}
                         onChange={(e) => setJenjang(e.target.value)}
-                        className="w-full border-2 border-teal-400 rounded-xl p-4 text-lg bg-white/70 backdrop-blur focus:outline-none focus:ring-2 focus:ring-teal-300 transition h-12"
+                        className="w-full border-2 border-teal-400 rounded-xl p-4 text-lg bg-white/70 backdrop-blur focus:outline-none focus:ring-2 focus:ring-teal-300 transition min-h-[52px]"
                     >
                         <option value="sd">SD</option>
                         <option value="smp">SMP</option>
@@ -46,7 +46,7 @@ export default function KalkulasiHomeVisit() {
                     <select
                         value={kelompok}
                         onChange={(e) => setKelompok(Number(e.target.value))}
-                        className="w-full border-2 border-teal-400 rounded-xl p-4 text-lg bg-white/70 backdrop-blur focus:outline-none focus:ring-2 focus:ring-teal-300 transition h-12"
+                        className="w-full border-2 border-teal-400 rounded-xl p-4 text-lg bg-white/70 backdrop-blur focus:outline-none focus:ring-2 focus:ring-teal-300 transition min-h-[52px]"
                     >
                         {[1, 2, 3, 4].map((item) => (
                         <option key={item} value={item}>
@@ -64,7 +64,7 @@ export default function KalkulasiHomeVisit() {
                     <select
                         value={pertemuan}
                         onChange={(e) => setPertemuan(Number(e.target.value))}
-                        className="w-full border-2 border-teal-400 rounded-xl p-4 text-lg bg-white/70 backdrop-blur focus:outline-none focus:ring-2 focus:ring-teal-300 transition h-12"
+                        className="w-full border-2 border-teal-400 rounded-xl p-4 text-lg bg-white/70 backdrop-blur focus:outline-none focus:ring-2 focus:ring-teal-300 transition min-h-[52px]"
                     >
                         {[1, 2, 4, 8, 12].map((item) => (
                         <option key={item} value={item}>
